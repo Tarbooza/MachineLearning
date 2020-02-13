@@ -4,8 +4,7 @@ import numpy as np
 
 iris = load_iris()
 
-testIndex = [0, 1, 2]
-print(iris.data)
+testIndex = [0, 50, 100]
 #training data
 
 trainData = np.delete(iris.data, testIndex, axis = 0)
